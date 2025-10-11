@@ -1,0 +1,42 @@
+[?25l[2J[m[2;1H> web@0.0.1 build D:\TaskBoard_SmartWorkFlow\TaskBoardSmart\apps\web
+> next build[5;1H]0;C:\Windows\system32\cmd.exe[?25h[?25l   [38;2;173;127;168m[1m▲ Next.js 15.5.4[7;1H[?25h[m [37m[1m [m Creating an optimized production build ...
+ [32m[1m✓[m Compiled successfully in 4.7s
+ [37m[1m [m Linting and checking validity of types  [36m.[?25l[m [37m[1m [m Linting and checking validity of types  [36m..[K[117C[m [37m[1m [m Linting and checking validity of types  [36m...[K[116C[m [37m[1m [m Linting and checking validity of types  [36m.[K[118C[m [37m[1m [m Linting and checking validity of types  [36m..[K[117C[m [37m[1m [m Linting and checking validity of types  [36m...[K[116C[m [37m[1m [m Linting and checking validity of types  [36m.[K[118C[m [37m[1m [m Linting and checking validity of types  [36m..[K[117C[m [37m[1m [m Linting and checking validity of types  [36m...[K[116C[m [37m[1m [m Linting and checking validity of types  [36m.[K[118C[m [37m[1m [m Linting and checking validity of types  [36m..[K[117C[m [37m[1m [m Linting and checking validity of types  [36m...[K[116C[m [37m[1m [m Linting and checking validity of types  [36m.[K[118C[m [37m[1m [m Linting and checking validity of types  [36m..[K[117C[m[K
+./app/profile/page.tsx[?25h
+111:17  Warning: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  @typescript-eslint/ban-ts-c
+[9;162Hcomment
+118:17  Warning: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  @typescript-eslint/ban-ts-c
+[9;162Hcomment
+
+./app/tasks/page.tsx
+262:5  Warning: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  @typescript-eslint/ban-ts-co
+[9;162Homment
+
+./components/KanbanColumn.tsx
+27:63  Warning: 'onDelete' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./lib/localTasks.ts
+39:5  Warning: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  @typescript-eslint/ban-ts-com
+[9;162Hmment
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+ [36m.[K[?25l[160C[m [36m..[K[159C[m [36m...[K[158C[m [36m.[K[160C[m [36m..[K[159C[m [36m...[K[158C[m [36m.[K[160C[m [32m[1m✓[m Linting and checking validity of types[K[?25h
+ [37m[1m [m Collecting page data  [36m.[K[?25l[136C[m [37m[1m [m Collecting page data  [36m..[K[135C[m [37m[1m [m Collecting page data  [36m...[K[134C[m [37m[1m [m Collecting page data  [36m.[K[136C[m [37m[1m [m Collecting page data  [36m..[K[135C[m [37m[1m [m Collecting page data  [36m...[K[134C[m [32m[1m✓[m Collecting page data[K[?25h
+ [37m[1m [m Generating static pages (0/8)  [36m[    ][?25l[m [37m[1m [m Generating static pages (0/8)  [36m[=   ][K[122C[m [37m[1m [m Generating static pages (0/8)  [36m[==  ][K[122C[m [37m[1m [m Generating static pages (0/8)  [36m[=== ][K[122C[m [37m[1m [m Generating static pages (2/8)  [36m[ ===][K[122C[m [32m[1m✓[m Generating static pages (8/8)[K[?25h
+ [37m[1m [m Finalizing page optimization  [36m. [37m[1m [m Collecting build traces  [36m.[?25l[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [37m[1m [m Collecting build traces  [36m.[K[133C[m [37m[1m [m Collecting build traces  [36m..[K[132C[m [37m[1m [m Collecting build traces  [36m...[K[131C[m [32m[1m✓[m Collecting build traces[K[?25h
+ [32m[1m✓[m Finalizing page optimization[K
+
+[4mRoute (app)[24m[33X[4m[33CSize[24m  [4mFirst Load JS[24m[K
+┌ ○ /                                      297 B[37m[1m[9C102 kB[m[K
+├ ○ /_not-found                            995 B[37m[1m[9C103 kB[m[K
+├ ○ /profile                             15.7 kB[37m[1m[9C183 kB[m[K
+├ ○ /projects                            6.54 kB[37m[1m[9C173 kB[m[K
+└ ○ /tasks                               33.5 kB[37m[1m[9C223 kB[m[K
++ First Load JS shared by all[37m[1m[13C102 kB[m[K
+  ├ chunks/142-f4626882ef05056e.js       45.3 kB
+  ├ chunks/9420b3d0-1814579faddf9aee.js  54.2 kB
+  └ other shared chunks (total)             2 kB
+
+
+○  (Static)  prerendered as static content
+

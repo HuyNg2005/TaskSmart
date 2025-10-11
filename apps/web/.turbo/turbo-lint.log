@@ -1,0 +1,20 @@
+[?25l[2J[m[2;1H> web@0.0.1 lint D:\TaskBoard_SmartWorkFlow\TaskBoardSmart\apps\web
+> next lint[5;1H]0;C:\Windows\system32\cmd.exe[?25h[?25l[33m`next lint` is deprecated and will be removed in Next.js 16.[m
+For new projects, use [1mcreate-next-app[22m to choose your preferred linter.
+For existing projects, migrate to the ESLint CLI:[1m
+npx @next/codemod@canary next-lint-to-eslint-cli .[10;1H[?25h[22m[36m
+./app/profile/page.tsx[m
+[33m112[m:[33m17  [1mWarning[m: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  [90m[1m@typescript-eslint/ban-ts[m
+[90m[1m[10;160Hs-comment[22m[K[m
+[33m119[m:[33m17  [1mWarning[m: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  [90m[1m@typescript-eslint/ban-ts[m
+[90m[1m[10;160Hs-comment[22m[K[m
+
+[36m./app/tasks/page.tsx[m
+[33m256[m:[33m5  [1mWarning[m: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  [90m[1m@typescript-eslint/ban-ts-[m
+[90m[1m[10;160H-comment[22m[K[m
+
+[36m./lib/localTasks.ts[m
+[33m39[m:[33m5  [1mWarning[m: Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.  [90m[1m@typescript-eslint/ban-ts-c[m
+[90m[1m[10;160Hcomment[22m[K[m
+
+[36minfo  [m- Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules[K

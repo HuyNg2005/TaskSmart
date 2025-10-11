@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/apps/web/app/page.tsx"],"sourcesContent":["\"use client\";\nimport { redirect } from \"next/navigation\";\n\nexport default function Home() {\n    redirect(\"/projects\");\n}"],"names":[],"mappings":";;;;AACA;AADA;;AAGe,SAAS;IACpB,IAAA,6QAAQ,EAAC;AACb","debugId":null}}]
+}
