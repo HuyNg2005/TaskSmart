@@ -1,116 +1,213 @@
 [?25l[2J[m[2;1H> web@0.0.1 dev D:\TaskBoard_SmartWorkFlow\TaskBoardSmart\apps\web
-> next dev --turbopack[5;1H]0;C:\Windows\system32\cmd.exe[?25h]0;next-server (v15.5.4) [33m[1m⚠[m Port 3000 is in use by process 18140, using available port 3004 instead.
-[?25l   [38;2;173;127;168m[1m▲ Next.js 15.5.4[m (Turbopack)
-   - Local:        http://localhost:3004
-   - Network:      http://192.168.81.1:3004[10;1H [32m[1m✓[m Starting...[?25h
- [32m[1m✓[m Ready in 1183ms
- [33m[1m⚠[m Your project has `@next/font` installed as a dependency, please use the built-in `next/font` instead. The `@next/font` package will be removed in Next.js 14. Y
-[9;162HYou can migrate by running `pnpm dlx @next/codemod@latest built-in-next-font .`. Read more: https://nextjs.org/docs/messages/built-in-next-font
- [37m[1m○[m Compiling /_not-found/page ...
- [32m[1m✓[m Compiled /_not-found/page in 2.9s
- GET /customers [33m404 [min 3514ms
- [32m[1m✓[m Compiled /favicon.ico in 250ms
- GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 586ms
- [32m[1m✓[m Compiled / in 359ms
- GET / [34m307 [min 562ms
+> next dev --turbopack[5;1H]0;C:\Windows\system32\cmd.exe[?25h]0;next-server (v15.5.4)[?25l   [38;2;173;127;168m[1m▲ Next.js 15.5.4[m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.81.1:3000[9;1H [32m[1m✓[m Starting...
+[?25h [32m[1m✓[m Ready in 2.1s
+ [33m[1m⚠[m Your project has `@next/font` installed as a dependency, please use the built-in `next/font` instead. The `@next/font` package will be removed in Next.js 14. You can migrate by running `pnpm dlx @next/codemod@latest built-in-next-font .`. Read more: https://nextjs.org/docs/messages/built-in-next-font
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 5.2s
+ GET / [32m200 [min 6401ms
  [37m[1m○[m Compiling /projects ...
- [32m[1m✓[m
+ [32m[1m✓[m Compiled /projects in 1737ms
+ GET /projects [32m200 [min 2065ms
+ [37m[1m○[m Compiling /profile ...
+ [32m[1m✓[m Compiled /profile in 952ms
+ [31m[1m⨯[m ./apps/web/app/profile[K
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components
+[11;162Hs by default.
 
-#
-# Fatal process out of memory: Zone
-#
------ Native stack trace -----
+
+
+ [37m[1m○[m Compiling /_error ...
+ [32m[1m✓[m Compiled /_error in 3.4s
+ GET /profile [31m500 [min 7334ms
+ [31m[1m⨯[m ./apps/web/app/profile
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components
+[11;162Hs by default.
 
 
 
-#
-# Fatal process out of memory: Zone
-#
------ Native stack trace -----
+ GET /profile [31m500 [min 267ms
+ [37m[1m○[m Compiling /favicon.ico ...
+ [32m[1m✓[m Compiled /favicon.ico in 785ms
+ GET /favicon.ico [31m500 [min 842ms
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1
+[31m[1mModule not found[m: Can't resolve [32m'@/components/ui/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/ui/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
 
- 1: 00007FF6A60E711D
- 1: 00007FF6A60E711D
- 2: 00007FF6A5FC181F
- 3: 00007FF6A72395C6
- 4: 00007FF6A6BBD6E1
- 5: 00007FF6A668C79B
- 6: 00007FF6A63F8990
- 7: 00007FF6A640FC86
- 8: 00007FF6A76F958F
- 9: 00007FF6A772FBF9
-10: 00007FF6A73569AF
-11: 00007FF6A735064A
-12: 00007FF6A6B38314
-13: 00007FF6A6AF1C22
-14: 00007FF6A6DC24F5
-15: 00007FF6A5FC4540
-16: 00007FF6A6147463
-17: 00007FF6A7944C2E
-18: 00007FFFF325259D
-19: 00007FFFF55EAF78
- 2: 00007FF6A5FC181F
- 3: 00007FF6A72395C6
- 4: 00007FF6A6BBD6E1
- 5: 00007FF6A668C79B
- 6: 00007FF6A72A5173
- 7: 00007FF6A72A57F2
- 8: 00007FF6A749F58B
- 9: 00007FF6A7499441
-10: 00007FF6A73851EE
-11: 00007FF6A738599E
-12: 00007FF6A7385692
-13: 00007FF6A7499670
-14: 00007FF6A735AA89
-15: 00007FF6A73558E3
-16: 00007FF6A735064A
-17: 00007FF6A6B38314
-18: 00007FF6A6AF1C22
-19: 00007FF6A6DC24F5
-20: 00007FF6A5FC4540
-21: 00007FF6A6147463
-22: 00007FF6A7944C2E
-23: 00007FFFF325259D
-24: 00007FFFF55EAF78
-181F
- 3: 00007FF6A72395C6
- 3: 00007FF6A72395C6
- 4: 00007FF6A6BBD6E1
- 4: 00007FF6A6BBD6E1
- 5: 00007FF6A668C79B
- 5: 00007FF6A668C79B
- 6: 00007FF6A7478782
- 6: 00007FF6A65B5BBA
- 7: 00007FF6A7477362
- 7: 00007FF6A7667B5E
- 8: 00007FF6A747D2E0
- 8: 00007FF6A7668156
- 9: 00007FF6A747B2CF
- 9: 00007FF6A7667CCD
-10: 00007FF6A7385607
-10: 00007FF6A7674D74
-11: 00007FF6A73580B1
-11: 00007FF6A7348EF2
-12: 00007FF6A73851EE
-12: 00007FF6A7356E45
-13: 00007FF6A738599E
-13: 00007FF6A735064A
-14: 00007FF6A7385692
-14: 00007FF6A6B38314
-15: 00007FF6A7359D0D
-15: 00007FF6A6AF1C22
-16: 00007FF6A7355ABB
-16: 00007FF6A6DC24F5
-17: 00007FF6A735064A
-17: 00007FF6A5FC4540
-18: 00007FF6A6B38314
-18: 00007FF6A6147463
-19: 00007FF6A6AF1C22
-19: 00007FF6A7944C2E
-20: 00007FF6A6DC24F5
-20: 00007FFFF325259D
-21: 00007FF6A5FC4540
-21: 00007FFFF55EAF78
-22: 00007FF6A6147463
-23: 00007FF6A7944C2E
-24: 00007FFFF325259D
-25: 00007FFFF55EAF78
+Import map: aliased to relative './components/ui/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/ui/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/ui/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/ui/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/components/Loading
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components
+[11;162Hs by default.
+
+
+
+ GET /profile [31m500 [min 399ms
+ GET /favicon.ico [31m500 [min 104ms
+ [32m[1m✓[m Compiled in 378ms
+ [32m[1m✓[m Compiled /profile in 439ms
+ GET /profile [32m200 [min 1276ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 734ms
+ [37m[1m○[m Compiling /tasks ...
+ [32m[1m✓[m Compiled /tasks in 1614ms
+ GET /tasks [32m200 [min 1769ms
+ GET /tasks [32m200 [min 159ms
+ GET /profile [32m200 [min 200ms
+ GET /profile [32m200 [min 331ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 330ms
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/profile/page.tsx:2:1[K
+[31m[1mModule not found[m: Can't resolve [32m'@/components/Loading/HamsterLoader'[K[m
+  [90m1 | [36mimport [m{ [33mSuspense, [mlazy } [36mfrom [32m'react'[33m;[K[m
+[31m[1m>[90m[22m 2 | [36mimport [33mHamsterLoader [36mfrom [32m'@/components/Loading/HamsterLoader'[33m;[K[m
+    [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m3 |[K[m
+  [90m4 | [36mconst [33mProfileContent = [mlazy(() [33m=> [36mimport[m([32m'@/components/profile/ProfileContent'[m))[33m;[K[m
+  [90m5 |[K[m
+
+Import map: aliased to relative './components/Loading/HamsterLoader' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [32m[1m✓[m Compiled in 257ms
+ [32m[1m✓[m Compiled in 512ms
+ [32m[1m✓[m Compiled in 171ms
+ [32m[1m✓[m Compiled /profile in 153ms
+ GET /profile [32m200 [min 424ms

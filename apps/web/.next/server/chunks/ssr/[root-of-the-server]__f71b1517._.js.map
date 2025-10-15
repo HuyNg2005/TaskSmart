@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/apps/web/app/profile/page.tsx"],"sourcesContent":["import dynamic from 'next/dynamic'\r\nconst ProfileContent = dynamic(() => import('@/components/profile/ProfileContent'), {\r\n    loading: () => <p>Đang tải...</p>,\r\n})\r\nexport default function ProfilePage() {\r\n    return (\r\n        <ProfileContent />\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;;AACA,MAAM,iBAAiB,IAAA,ySAAO,EAAC;;;;;;IAC3B,SAAS,kBAAM,6WAAC;sBAAE;;;;;;;AAEP,SAAS;IACpB,qBACI,6WAAC;;;;;AAET","debugId":null}}]
+}

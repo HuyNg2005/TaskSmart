@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Sidebar } from "@/components/sidebar";
+import { Sidebar } from "@/components/Sidebar/Sidebar";
 import {Toaster} from "sonner";
 import "@workspace/ui/globals.css"
-import QueryClientProviderWrapper from "@/components/QueryClientProviderWrapper";
+import QueryClientProviderWrapper from "@/components/QueryClientProvider/QueryClientProviderWrapper";
 import { ThemeProvider } from "next-themes";
+import {Suspense} from "react";
 
 export const metadata: Metadata = {
     title: "TaskBoardX – Smart Workflow & Task Dashboard",

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/apps/web/app/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\n\n\nexport default function Home() {\n    redirect(\"/projects\");\n}"],"names":[],"mappings":";;;;AAAA;AAAA;;AAGe,SAAS;IACpB,IAAA,gUAAQ,EAAC;AACb","debugId":null}}]
+}

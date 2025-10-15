@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/apps/web/components/QueryClientProviderWrapper.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { QueryClient, QueryClientProvider } from \"@tanstack/react-query\";\r\nimport { ReactNode } from \"react\";\r\n\r\nconst queryClient = new QueryClient();\r\n\r\nexport default function QueryClientProviderWrapper({ children }: { children: ReactNode }) {\r\n    return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;\r\n}"],"names":[],"mappings":";;;;;AAEA;AAAA;AAFA;;;AAKA,MAAM,cAAc,IAAI,wQAAW;AAEpB,SAAS,2BAA2B,KAAqC;QAArC,EAAE,QAAQ,EAA2B,GAArC;IAC/C,qBAAO,4TAAC,gTAAmB;QAAC,QAAQ;kBAAc;;;;;;AACtD;KAFwB","debugId":null}}]
+}

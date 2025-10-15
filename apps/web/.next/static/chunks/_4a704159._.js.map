@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/apps/web/app/page.tsx"],"sourcesContent":["\"use client\";\nimport { redirect } from \"next/navigation\";\n\nexport default function Home() {\n    redirect(\"/projects\");\n}"],"names":[],"mappings":";;;;AACA;AADA;;AAGe,SAAS;IACpB,IAAA,gRAAQ,EAAC;AACb;KAFwB","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///D:/TaskBoard_SmartWorkFlow/TaskBoardSmart/node_modules/.pnpm/next%4015.5.4_react-dom%4019.2.0_react%4019.2.0__react%4019.2.0/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}
